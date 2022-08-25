@@ -26,7 +26,9 @@ const App = () => (
         <CardDeal/>
         <Testimonials/>
         <Clients/>
-        <CTA/>
+        <div className={`${styles.flexCenter}`}>
+          <CTA/>
+        </div>
         <Footer/>
       </div>
     </div>
