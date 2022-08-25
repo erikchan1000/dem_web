@@ -15,6 +15,11 @@ export const Billing = () => (
       <p className={`${styles.paragraph} max-w-[470px] `}>
         Invoicing is a big part of any business. We’ve built a simple, easy to use billing system that allows you to easily manage your invoices and payments.
       </p>
+
+      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+        <img src={apple} alt="apple_store" className="w-[144.04px] h-[47px] object-contain mr-5 cursor-pointer"/>
+        <img src={google} alt="google_store" className="w-[144.04px] h-[47x] object-contain cursor-pointer"/>
+      </div>
     </div>
 
   </section>
