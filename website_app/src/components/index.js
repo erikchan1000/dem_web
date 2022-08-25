@@ -1,7 +1,7 @@
 import {Footer} from './Footer';
 import {NavBar} from './NavBar';
 import {Clients} from './Clients';
-import {Feedback} from './Feedback';
+import {FeedbackCard} from './FeedbackCard';
 import {Business} from './Business';
 import {GetStarted} from './GetStarted';
 import {CTA} from './CTA';
@@ -15,7 +15,7 @@ import {Testimonials} from './Testimonials';
 export {
     NavBar,
     Clients,
-    Feedback,
+    FeedbackCard,
     Footer,
     Business,
     GetStarted,
